@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestService.Web", "TestService.Web\TestService.Web.csproj", "{B826FDD7-6F3C-4895-A942-EF08A6225209}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestService.Services", "TestService.Services\TestService.Services.csproj", "{3A875FDF-E111-4EEC-BEE4-0CC30C475024}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestService.Domain", "TestService.Domain\TestService.Domain.csproj", "{8A0092A4-162D-4494-804D-4DAEF0359795}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B826FDD7-6F3C-4895-A942-EF08A6225209}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B826FDD7-6F3C-4895-A942-EF08A6225209}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B826FDD7-6F3C-4895-A942-EF08A6225209}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B826FDD7-6F3C-4895-A942-EF08A6225209}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A875FDF-E111-4EEC-BEE4-0CC30C475024}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A875FDF-E111-4EEC-BEE4-0CC30C475024}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A875FDF-E111-4EEC-BEE4-0CC30C475024}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A875FDF-E111-4EEC-BEE4-0CC30C475024}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A0092A4-162D-4494-804D-4DAEF0359795}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A0092A4-162D-4494-804D-4DAEF0359795}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A0092A4-162D-4494-804D-4DAEF0359795}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A0092A4-162D-4494-804D-4DAEF0359795}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
