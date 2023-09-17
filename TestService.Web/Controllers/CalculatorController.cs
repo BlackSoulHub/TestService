@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using TestService.Services.Interfaces;
+using TestService.Web.Requests;
 
 namespace TestService.Web.Controllers;
 
@@ -14,10 +15,11 @@ public class CalculatorController : ControllerBase
         _calculatorService = calculatorService;
     }
 
-    [HttpGet("")]
-    public async Task<IActionResult> Calculate()
+    [HttpGet]
+    public async Task<IActionResult> Calculate([FromQuery] CalculateRequest request)
     {
-        var result = await _calculatorService.CalculateDeliveryCostAsync("1dc8892d-986d-4bb2-8551-6d1f8066e36b", "98eb8fd9-1ea0-457b-b539-ba6396eb6e01", 100.0f, 5000, 5000, 5000);
+        var result = await _calculatorService.CalculateDeliveryCostAsync(request.From,
+            request.To, request.Weight, request.Lenght, request.Width, request.Height);
         return Ok(result);
     }
 }
